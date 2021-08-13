@@ -44,6 +44,7 @@ p {
 
 body{
     padding-top: 80px;
+    background-color:#eed4ff;
 }
 .tab{
     list-style: none;
@@ -61,3 +62,13 @@ body{
 .links : hover{
     color: #5F6969;
 }
+#videos{
+        text-align: center;
+        }
+#works{
+    text-align: center;
+    }
+.article:hover{
+    color: #1a002e;
+}
+    
