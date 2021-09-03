@@ -8,7 +8,7 @@
 #intro {
     height: 800px;
     left: 0;
-    right:0;
+    right: 0;
     bottom: 0;
     top: 0;
     width: 100%;
@@ -42,33 +42,70 @@ p {
     padding-left: 300px;
 }
 
-body{
+body {
     padding-top: 80px;
-    background-color:#eed4ff;
+    background-color: #eed4ff;
 }
-.tab{
+
+.tab {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     background-color: antiquewhite;
-}
-.links{
-    float: right;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10px; 
+    }
+
+.links {
     font-size: 20px;
-    padding: 10px;
-    color:burlywood;
+    padding-right: 25.10px;
+    color: #130442;
+    display: inline;
+    padding-left: 33.9px;
 }
-.links : hover{
+.links : hover {
     color: #5F6969;
+    text-decoration: underline;
+    font-size: 25px;
 }
-#videos{
-        text-align: center;
-        }
-#works{
+
+#videos {
+    text-align: center;
+}
+
+#works {
     text-align: center;
     }
-.article:hover{
+#works a {
+    text-decoration: underline!important;
+    text-shadow: none !important;
+    color: blue !important;
+}
+.article:hover {
     color: #1a002e;
 }
-    
+
+.line {
+    color: black;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+a{
+    text-decoration: none;
+    color: #631515;
+    text-shadow: 2px 2px red;
+}
+#contact {
+    background : beige;
+    text-align: center;
+    }
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
+.contact1 h3 {
+    display: inline;
+}
